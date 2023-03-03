@@ -1,0 +1,386 @@
+:root {
+    
+--Pink: hsl(322, 100%, 66%);
+--Light-Pink: hsl(321, 100%, 78%);
+--Light-Red: hsl(0, 100%, 63%);
+
+--Very-Dark-Cyan: hsl(192, 100%, 9%);
+--Very-Pale-Blue: hsl(207, 100%, 98%);
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--Very-Pale-Blue);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.logo {
+    width: 30%;
+}
+
+.tryfree {
+    text-decoration: none;
+    color: var(--Pink);
+    border-color: var(--Pink);
+    border-radius: 15px;
+    border: solid 1px;
+    text-align: center;
+    padding: 5px 15px;
+    margin-right: 15px;
+}
+
+.frontpage {
+
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    margin: 100px 10px 0px 10px;
+}
+
+.frontpage h1 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.frontpage img {
+    display: flex;
+    object-fit: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: 5rem auto;
+}
+
+.frontpage p  {
+    margin: 30px;
+}
+
+.frontpage a  {
+    text-decoration: none;
+    color: var(--Very-Pale-Blue);
+    background-color: var(--Pink);
+    border: solid 1px;
+    border-radius: 25px;
+    padding: 10px 50px;
+}
+
+.communities {
+display: grid;
+align-items: center;
+justify-content: center;
+margin-bottom: 100px;
+}
+.communities img {
+    width: 20%;
+}
+
+.communities h1 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: var(--Very-Dark-Cyan);
+    font-weight: 700;
+}
+.communities p {
+    color: gray;
+    text-align: center;
+}
+
+.messages {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.messages img {
+    width: 20%;
+}
+
+.messages h1 {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: var(--Very-Dark-Cyan);
+    font-weight: 700;  
+}
+.messages p {
+    color: gray;
+    text-align: center;
+}
+
+.getstarted {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.getstarted h1 {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+.getstarted a  {
+    border: solid 1px;
+    border-radius: 25px;
+    border-color: var(--Pink);
+    color: var(--Very-Pale-Blue);
+    text-decoration: none;
+    background-color: var(--Pink);
+    padding: 10px 30px;
+}
+
+.newsletter {
+    color: var(--Very-Pale-Blue);
+    margin: 40px 15px;
+    padding: 30px 0px 0px 0px;
+}
+
+.newsletter #submit {
+    background-color: var(--Pink);
+    color: var(--Very-Pale-Blue);
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 30px;
+    position: relative;
+    float: right;
+}
+.newsletter h1 {
+    padding: 0px 0px 10px 0px;
+}
+
+.newsletter p {
+    padding: 0px 0px 10px 0px;
+    
+}
+
+.newsletter #email {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.refran {
+    margin: 20px;
+    color: var(--Very-Pale-Blue);
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    gap: 15px;
+    margin: 20px;
+    color: var(--Very-Pale-Blue);
+}
+
+.social {
+    margin: 20px 0px 0px 20px;
+}
+
+.background {
+    background-color: var(--Very-Dark-Cyan);
+    
+}
+
+@media screen and (min-width: 1430px) {
+
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    
+    .logo {
+        width: 30%;
+    }
+    
+    .tryfree {
+        text-decoration: none;
+        color: var(--Pink);
+        border-color: var(--Pink);
+        border-radius: 15px;
+        border: solid 1px;
+        text-align: center;
+        padding: 5px 15px;
+        margin-right: 15px;
+    }
+    
+    .frontpage {
+    
+        display: grid;
+        justify-items: center;
+        text-align: center;
+        margin: 100px 10px 0px 10px;
+    }
+    
+    .frontpage h1 {
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    }
+    
+    .frontpage img {
+        display: flex;
+        object-fit: cover;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 90%;
+        margin: 5rem auto;
+    }
+    
+    .frontpage p  {
+        margin: 30px;
+    }
+    
+    .frontpage a  {
+        text-decoration: none;
+        color: var(--Very-Pale-Blue);
+        background-color: var(--Pink);
+        border: solid 1px;
+        border-radius: 25px;
+        padding: 10px 50px;
+    }
+    
+    .comandmsg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+    }
+    
+    .communities img {
+        width: 20%;
+    }
+    
+    .communities h1 {
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        color: var(--Very-Dark-Cyan);
+        font-weight: 700;
+    }
+    .communities p {
+        color: gray;
+        text-align: center;
+    }
+
+    .messages img {
+        width: 20%;
+    }
+    
+    .messages h1 {
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        color: var(--Very-Dark-Cyan);
+        font-weight: 700;  
+    }
+    .messages p {
+        color: gray;
+        text-align: center;
+    }
+    
+    .getstarted {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px 100px 0px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .getstarted h1 {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        margin-bottom: 40px;
+    }
+    
+    .getstarted a  {
+        border: solid 1px;
+        border-radius: 25px;
+        border-color: var(--Pink);
+        color: var(--Very-Pale-Blue);
+        text-decoration: none;
+        background-color: var(--Pink);
+        padding: 10px 30px;
+    }
+    
+    .newsandtext {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .newsletter {
+        color: var(--Very-Pale-Blue);
+        margin: 40px 15px;
+
+    }
+    
+    .newsletter #submit {
+        background-color: var(--Pink);
+        color: var(--Very-Pale-Blue);
+        text-decoration: none;
+        border: 0;
+        border-radius: 5px;
+        padding: 10px 30px;
+        position: absolute;
+        /*poner subscribe a derecha*/
+    }
+    .newsletter h1 {
+        padding: 0px 0px 10px 0px;
+    }
+    
+    .newsletter p {
+        padding: 0px 0px 10px 0px;
+        
+    }
+    
+    .newsletter #email {
+        padding: 10px 20px;
+        margin-right: 10px;
+        width: 80%;
+        border-radius: 5px;
+        border: 0;
+    }
+    
+    .refran {
+        color: var(--Very-Pale-Blue);
+        margin-right: 100px;
+        margin-left: 50px;
+    }
+    
+    .contact {
+        display: grid;
+        grid-template-columns: .1fr 1fr;
+        gap: 15px;
+        margin: -50px 0px 10px 50px;
+        color: var(--Very-Pale-Blue);
+    }
+    
+    .social {
+        margin: 20px 0px 0px 50px;
+    }
+    
+    .background {
+        background-color: var(--Very-Dark-Cyan);
+        padding-bottom: 10px;
+    }
+
+
+
+    
+}
